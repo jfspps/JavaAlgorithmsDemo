@@ -20,6 +20,11 @@ public class RunAlgorithm {
         algorithm.findNode(root, "Zoo");
         algorithm.findNode(root, "");
 
-        // multiple algorithms can be run in their own static methods in this class, Run Algorithm
+        // multiple algorithms can be run in their own static methods in this class, RunAlgorithm
+        runAnotherAlgorithm();
+    }
+
+    private static void runAnotherAlgorithm() {
+        System.out.println("Here is another demo of a different algorithm");
     }
 }
